@@ -5,23 +5,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: qredshift@quintao\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-04 13:58-0300\n"
-"PO-Revision-Date: 2021-12-01 21:32+0100\n"
+"PO-Revision-Date: 2021-12-01 23:09+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"X-Generator: Poedit 3.0\n
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
 "Last-Translator: Emiliano Perulli <emiliano.perulli1980@gmail.com>\n"
-"Plural-Forms: nplurals=2; plural=( n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: it\n"
-
 
 #: applet.js:115
 msgid "REDSHIFT NOT INSTALLED!"
-msgstr "REDSHIT NON INSTALLATO!"
+msgstr "REDSHIFT NON È INSTALLATO!"
 
 #: applet.js:116
 msgid "Requires Redshift: sudo apt-get install redshift"
@@ -29,7 +28,7 @@ msgstr "Richiede Redshift: sudo apt-get install redshift"
 
 #: applet.js:119 applet.js:159
 msgid "Reload Applet"
-msgstr "Ricarica Applet"
+msgstr "Ricarica l'applet"
 
 #: applet.js:164
 msgid "Recompile Translations"
@@ -76,7 +75,7 @@ msgstr "Temperatura diurna"
 
 #: applet.js:627
 msgid "Day Brightness"
-msgstr "Luminosità  diurna"
+msgstr "Luminosità diurna"
 
 #: applet.js:629
 msgid "Night Temperature"
@@ -105,11 +104,11 @@ msgstr "QRedshift"
 
 #. metadata.json->description
 msgid ""
-"Sets brightness, gamma levels and color temperature with Redshift. This applet conflicts with redshift-gtk, make sure "
-"you remove it."
+"Sets brightness, gamma levels and color temperature with Redshift. This "
+"applet conflicts with redshift-gtk, make sure you remove it."
 msgstr ""
-"Regola luminosità, gamma e temperatura del colore con Redshift. L'applet va in conflitto con il pacchetto redshift-gtk. "
-"Assicurarsi di rimuoverlo."
+"Regola luminosità, gamma e temperatura del colore con Redshift. L'applet va "
+"in conflitto con il pacchetto redshift-gtk. Assicurarsi di rimuoverlo."
 
 #. settings-schema.json->panel-options->title
 msgid "Settings"
@@ -141,7 +140,7 @@ msgstr "Parametri notturni"
 
 #. settings-schema.json->keybind-section->title
 msgid "Key Bindings"
-msgstr "Scorciatoie da tastiera"
+msgstr "Associazione tasti"
 
 #. settings-schema.json->location-section->title
 msgid "Location Settings"
@@ -153,7 +152,7 @@ msgstr "Ciclo continuo giorno-notte e notte-giorno"
 
 #. settings-schema.json->autoUpdate->tooltip
 msgid "Continuously adjust color temperature"
-msgstr "Regola continuamente la temperatura del colore"
+msgstr "Regola in modo continuo la temperatura del colore"
 
 #. settings-schema.json->autoUpdateInterval->units
 msgid "Sec."
@@ -161,7 +160,7 @@ msgstr "Sec."
 
 #. settings-schema.json->autoUpdateInterval->description
 msgid "Update interval"
-msgstr "Intervallo"
+msgstr "Intervallo di aggiornamento"
 
 #. settings-schema.json->adjustmentMethod->description
 msgid "Adjustment Method"
@@ -206,32 +205,32 @@ msgstr "Diminuisci luminosità"
 
 #. settings-schema.json->keyTempUp->description
 msgid "Increase temperature level"
-msgstr "Aumenta temperatua del colore"
+msgstr "Aumenta la temperatura"
 
 #. settings-schema.json->keyTempDown->description
 msgid "Decrease temperature level"
-msgstr "Diminuisci temperatura del colore"
+msgstr "Diminuisci la temperatura"
 
 #. settings-schema.json->keyGammaUp->description
 msgid "Increase gamma level"
-msgstr "Aumenta gamma"
+msgstr "Aumenta la gamma"
 
 #. settings-schema.json->keyGammaDown->description
 msgid "Decrease gamma level"
-msgstr "Diminuisci gamma"
+msgstr "Diminuisci la gamma"
 
 #. settings-schema.json->labelScrollAction->options
 msgid "Bright"
-msgstr "Regola luminosità"
+msgstr "Regola la luminosità"
 
 #. settings-schema.json->labelScrollAction->options
 #. settings-schema.json->gammaMix->description
 msgid "Gamma"
-msgstr "Regola gamma"
+msgstr "Regola la gamma"
 
 #. settings-schema.json->labelScrollAction->tooltip
 msgid "Action when scroll on applet icon."
-msgstr "Definsice l'azione della rotellina del mouse quando si scorre sull'icona."
+msgstr "Definisce l'azione della rotellina del mouse quando si scorre sull'icona"
 
 #. settings-schema.json->dayTemp->units
 #. settings-schema.json->nightTemp->units
@@ -250,7 +249,8 @@ msgstr "Servizio di geolocalizzazione"
 #. settings-schema.json->locationRemote->tooltip
 #. settings-schema.json->locationUpdate->tooltip
 msgid "Native geoclue on redshift can make the experience slow."
-msgstr "La geolocalizzazione integrata di redshift potrebbe causare rallentamenti."
+msgstr ""
+"La geolocalizzazione integrata di redshift potrebbe causare rallentamenti"
 
 #. settings-schema.json->locationUpdate->description
 msgid "Update Location"
@@ -269,18 +269,20 @@ msgid ""
 "Native geoclue on redshift can make the experience slow.\n"
 "Using: https://geolocation-db.com/"
 msgstr ""
-"La geolocalizzazione integrata di redshift potrebbe causare rallentamenti.\n"
-"Viene utilizzato il servizio https://geolocation-db.com"
+"La geolocalizzazione integrata di redshift potrebbe causare rallentamenti\n"
+"Viene utilizzato il servizio https://geolocation-db.com/"
 
 #. settings-schema.json->textTips->description
 msgid "* Right-click the sliders to reset the default (neutral) value."
 msgstr ""
-"* Clicca col tasto destro del mouse sulle barre di scorrimento per riportare al valore predefinito (valore neutrale)."
+"*Click destro sulle barre di scorrimento per resettare al valore predefinito "
+"(valore neutro)"
 
 #. settings-schema.json->textInfo->description
 msgid ""
-"If you like and use this applet take the time to visit it's page on Cinnamon Spices and give it a star. You only need a "
-"github account to do this."
+"If you like and use this applet take the time to visit it's page on Cinnamon "
+"Spices and give it a star. You only need a github account to do this."
 msgstr ""
-"Se apprezzi e utilizzi quest'applet, visita la pagina dedicata su Cinnamon Spices e dalle una stella. Per farlo, è "
-"richiesto semplicemente un account github."
+"Se apprezzi ed utilizzi quest'applet, visita la sua pagina dedicata su "
+"Cinnamon Spices e dalle una stella. Per farlo, è sufficiente un account "
+"github."
