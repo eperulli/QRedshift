@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-04 13:58-0300\n"
-"PO-Revision-Date: 2021-12-01 23:09+0100\n"
+"PO-Revision-Date: 2021-12-02 21:21+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,11 +104,11 @@ msgstr "QRedshift"
 
 #. metadata.json->description
 msgid ""
-"Sets brightness, gamma levels and color temperature with Redshift. This "
-"applet conflicts with redshift-gtk, make sure you remove it."
+"Sets brightness, gamma levels and color temperature with Redshift. This applet "
+"conflicts with redshift-gtk, make sure you remove it."
 msgstr ""
-"Regola luminosità, gamma e temperatura del colore con Redshift. L'applet va "
-"in conflitto con il pacchetto redshift-gtk. Assicurarsi di rimuoverlo."
+"Regola luminosità, gamma e temperatura del colore con Redshift. L'applet va in "
+"conflitto con il pacchetto redshift-gtk. Assicurarsi di rimuoverlo."
 
 #. settings-schema.json->panel-options->title
 msgid "Settings"
@@ -221,16 +221,17 @@ msgstr "Diminuisci la gamma"
 
 #. settings-schema.json->labelScrollAction->options
 msgid "Bright"
-msgstr "Regola la luminosità"
+msgstr "Luminosità"
 
 #. settings-schema.json->labelScrollAction->options
 #. settings-schema.json->gammaMix->description
 msgid "Gamma"
-msgstr "Regola la gamma"
+msgstr "Gamma"
 
 #. settings-schema.json->labelScrollAction->tooltip
 msgid "Action when scroll on applet icon."
-msgstr "Definisce l'azione della rotellina del mouse quando si scorre sull'icona"
+msgstr ""
+"Definisce l'azione della rotellina del mouse quando si scorre sull'icona."
 
 #. settings-schema.json->dayTemp->units
 #. settings-schema.json->nightTemp->units
@@ -250,7 +251,7 @@ msgstr "Servizio di geolocalizzazione"
 #. settings-schema.json->locationUpdate->tooltip
 msgid "Native geoclue on redshift can make the experience slow."
 msgstr ""
-"La geolocalizzazione integrata di redshift potrebbe causare rallentamenti"
+"La geolocalizzazione integrata di redshift potrebbe causare rallentamenti."
 
 #. settings-schema.json->locationUpdate->description
 msgid "Update Location"
@@ -284,5 +285,4 @@ msgid ""
 "Spices and give it a star. You only need a github account to do this."
 msgstr ""
 "Se apprezzi ed utilizzi quest'applet, visita la sua pagina dedicata su "
-"Cinnamon Spices e dalle una stella. Per farlo, è sufficiente un account "
-"github."
+"Cinnamon Spices e dalle una stella. Per farlo, è sufficiente un account github."
